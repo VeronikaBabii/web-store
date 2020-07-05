@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Veronica's Store | BAG</title>
+    <script src="javascript.js" async></script>
+</head>
+<body>
+<header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse justify-content-md-center">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link text-light" href="index.html">HOME</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="women.html">WOMEN</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="men.html">MEN</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="about.html">ABOUT</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="bag.html">BAG</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="container content">
+    <div class="row" id="bagID">
+        <div class="table-responsive">
+            <table class="table">
+
+                <thead>
+                <tr>
+                    <th class="border-0 bg-light">
+                        <div class="p-2 px-3">PRODUCT</div>
+                    </th>
+                    <th class="border-0 bg-light">
+                        <div class="py-2">PRICE</div>
+                    </th>
+                    <th class="border-0 bg-light">
+                        <div class="py-2">QUANTITY</div>
+                    </th>
+                    <th class="border-0 bg-light">
+                        <div class="py-2">REMOVE</div>
+                    </th>
+                </tr>
+                </thead>
+
+                <tbody class="product-items">
+                <div class="bag-item">
+                    <tr class="product-row">
+                        <th class="border-0">
+                            <div class="p-2">
+                                <img src="https://cdn-images.farfetch-contents.com/13/88/71/61/13887161_20313877_1000.jpg"
+                                     width="100" class="img-fluid rounded" alt="">
+                                <div class="ml-3 d-inline-block align-middle">
+                                    <h5 class="mb-0"><a href="#"
+                                                        class="text-dark d-inline-block align-middle bag-product-title">VALENTINO
+                                        envelope clutch</a></h5>
+                                </div>
+                            </div>
+                        </th>
+                        <td class="border-0 align-middle bag-price"><strong>$700</strong></td>
+                        <td class="border-0 align-middle">
+                            <input class="bag-quantity-input" type="number" value="1">
+                        </td>
+                        <td class="border-0 align-middle">
+                            <button class="remove-product-btn text-dark fa fa-trash"></button>
+                        </td>
+                    </tr>
+                </div>
+
+                <div class="bag-item">
+                    <tr class="product-row">
+                        <th>
+                            <div class="p-2">
+                                <img src="https://cdn-images.farfetch-contents.com/13/43/42/46/13434246_21442408_1000.jpg"
+                                     width="100" class="img-fluid rounded" alt="">
+                                <div class="ml-3 d-inline-block align-middle">
+                                    <h5 class="mb-0"><a href="#" class="text-dark d-inline-block bag-product-title">GIANVITO
+                                        ROSSI leather pumps</a></h5>
+                                </div>
+                            </div>
+                        </th>
+                        <td class="align-middle bag-price"><strong>$700</strong></td>
+                        <td class="align-middle">
+                            <input class="bag-quantity-input" type="number" value="1">
+                        </td>
+                        <td class="align-middle">
+                            <button class="remove-product-btn text-dark fa fa-trash"></button>
+                        </td>
+                    </tr>
+                </div>
+
+                <div class="bag-item">
+                    <tr class="product-row">
+                        <th>
+                            <div class="p-2">
+                                <img src="https://cdn-images.farfetch-contents.com/14/06/89/10/14068910_21238474_1000.jpg"
+                                     width="100" class="img-fluid rounded" alt="">
+                                <div class="ml-3 d-inline-block align-middle">
+                                    <h5 class="mb-0"><a href="#" class="text-dark d-inline-block bag-product-title">SAINT
+                                        LAURENT mini dress</a></h5>
+                                </div>
+                            </div>
+                        </th>
+                        <td class="align-middle bag-price"><strong>$1,900</strong></td>
+                        <td class="align-middle">
+                            <input class="bag-quantity-input" type="number" value="1">
+                        </td>
+                        <td class="align-middle">
+                            <button class="remove-product-btn text-dark fa fa-trash"></button>
+                        </td>
+                    </tr>
+                </div>
+                </tbody>
+            </table>
+
+            <div id="PURCHASE">
+                <div class="row justify-content-center">
+                    <div id="bag-total" class="bag-total col-6 col-md-4 text-center">
+                        <span class="total">Total: </span>
+                        <span class="bag-total bag-total-price" id="total-bag-price-ID">$3,300</span>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md-4 text-center pt-4 py-4">
+                        <button class="btn btn-purchase" role="button">PURCHASE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer font-small bg-dark pt-4">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-4 mx-auto"><h5 class="text-uppercase font-weight-bold text-light">Veronica's Store</h5>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="text-light text-center py-2">FOLLOW US</div>
+    <ul class="list-inline text-center text-light">
+        <li class="list-inline-item">
+            <a href="https://www.facebook.com" class="mx-1"><i class="fa fa-facebook"> </i></a>
+        </li>
+        <li class="list-inline-item">
+            <a href="https://twitter.com" class="mx-1"><i class="fa fa-twitter"> </i></a>
+        </li>
+        <li class="list-inline-item">
+            <a href="https://www.youtube.com" class="mx-1"><i class="fa fa-youtube"> </i></a>
+        </li>
+        <li class="list-inline-item">
+            <a href="https://www.linkedin.com" class="mx-1"><i class="fa fa-linkedin"> </i></a>
+        </li>
+        <li class="list-inline-item">
+            <a href="https://www.instagram.com" class="mx-1"><i class="fa fa-instagram"> </i></a>
+        </li>
+    </ul>
+    <div class="text-light text-center py-2">© 2019 Copyright - Veronica Babii:
+        <a href=""> VeronicasStore.com</a>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

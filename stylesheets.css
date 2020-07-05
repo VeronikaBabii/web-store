@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+@import url("https://fonts.googleapis.com/css?family=Arizonia:300,400");
+@import url("https://fonts.googleapis.com/css?family=Fjalla One:300,400");
+
+/*-- all --*/
+* {
+    font-family: Raleway;
+}
+
+.content {
+    margin-top: 5em;
+}
+
+
+/*-- home --*/
+.home-image {
+    margin: 1em;
+}
+
+/*-- product page --*/
+.product {
+    margin: 2em;
+}
+
+.product:hover {
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.product-price {
+    font-size: 1.4em;
+    margin: 1em;
+}
+
+.product-name {
+    font-size: 1.35em;
+    margin: 1em;
+}
+
+.btn {
+    color: white;
+    font-size: 1em;
+    background-color: rgb(48, 48, 48);
+}
+
+.btn:hover {
+    background-color: rgb(152, 152, 152);
+}
+
+/*-- about page--*/
+.about-image {
+    margin: 1em;
+}
+
+/*-- bag --*/
+.bag-col {
+    font-size: 1.4em;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.bag-image {
+    width: 250px;
+    height: auto;
+}
+
+.price-col {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-col {
+    display: flex;
+    align-items: center;
+}
+
+.bag-quantity-input {
+    width: 3em;
+}
+
+.btn-purchase {
+    font-size: 1.5em;
+}
+
+.total {
+    font-size: 1.5em;
+}
+
+.remove-product-btn {
+    border: none;
+    background-color: white;
+}
+
+.remove-product-btn:hover {
+    background-color: lightgrey;
+}
+
+.bag-total-price {
+    font-weight: bold;
+}
+
+
+/*-- footer --*/
+.footer {
+    position: absolute;
+    width: 100%;
+}
